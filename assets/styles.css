@@ -600,6 +600,11 @@ li {
     flex-shrink: 0;
     margin-right: 11px;
     margin-bottom: 82px;
+    transition: transform 0.3s linear;
+}
+
+.block1-people-bg:hover {
+    transform: translateY(-30px);
 }
 
 .block1-people {
