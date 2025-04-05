@@ -429,11 +429,11 @@ li {
     align-items: center;
     justify-content: center;
     padding-bottom: 104px;
+    gap: 127px;
 }
 
 .wow-title-text {
     display: flex;
-    margin-right: 26px;
 }
 
 .title-wow, .person-title {
@@ -570,14 +570,12 @@ li {
     justify-content: center;
     padding-top: 150px;
     padding-bottom: 107px;
-}
-
-.text-arrow-people {
-    margin-right: 50px;
+    gap: 127px;
 }
 
 .text-arrow-people {
     display: flex;
+    gap: 30px;
 }
 
 .text-people {
@@ -611,12 +609,14 @@ li {
 
 .block1-people {
     padding: 20px 23px 20px 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .photo-people {
     border: 12px solid rgba(0, 0, 0, 0.306);
     border-radius: 50%;
-    margin-left: 12px;
     margin-bottom: 10px;
 }
 
@@ -627,14 +627,12 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: 43px;
     margin-bottom: 9px;
 }
 
 .hr-card-people {
     width: 154px;
     height: 0px;
-    margin-left: 40px;
     margin-bottom: 14px;
 }
 
@@ -660,7 +658,6 @@ li {
     border: none;
     padding: 17px 39px;
     cursor: pointer;
-    margin-left: 38px;
     position: relative;
     transition: transform 0.3s linear;
 }
